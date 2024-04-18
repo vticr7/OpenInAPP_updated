@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB216EFD2BD024630009685D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB216EFC2BD024630009685D /* DashboardViewModel.swift */; };
+		DB216EFF2BD0253B0009685D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB216EFE2BD0253B0009685D /* DashboardView.swift */; };
+		DB216F012BD02DEC0009685D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB216F002BD02DEC0009685D /* Link.swift */; };
 		DB9B52962BCEDDB3006B4163 /* DashboardAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B52952BCEDDB3006B4163 /* DashboardAppApp.swift */; };
 		DB9B52982BCEDDB3006B4163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B52972BCEDDB3006B4163 /* ContentView.swift */; };
 		DB9B529A2BCEDDB4006B4163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B52992BCEDDB4006B4163 /* Assets.xcassets */; };
 		DB9B529D2BCEDDB4006B4163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B529C2BCEDDB4006B4163 /* Preview Assets.xcassets */; };
+		DB9B52A42BCEDF43006B4163 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B52A32BCEDF43006B4163 /* GreetingView.swift */; };
+		DB9B52A62BCEDF7A006B4163 /* ChartComponets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B52A52BCEDF7A006B4163 /* ChartComponets.swift */; };
+		DB9B52AA2BCEE009006B4163 /* LinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B52A92BCEE009006B4163 /* LinkRow.swift */; };
+		DBC95B6A2BD0327D00D197DA /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC95B692BD0327D00D197DA /* Overview.swift */; };
+		DBC95B6C2BD032A600D197DA /* MetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC95B6B2BD032A600D197DA /* MetricView.swift */; };
+		DBC95B6E2BD0331D00D197DA /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC95B6D2BD0331D00D197DA /* BottomButtonView.swift */; };
+		DBC95B702BD033EF00D197DA /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC95B6F2BD033EF00D197DA /* LinksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB216EFC2BD024630009685D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		DB216EFE2BD0253B0009685D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DB216F002BD02DEC0009685D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 		DB9B52922BCEDDB3006B4163 /* DashboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B52952BCEDDB3006B4163 /* DashboardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAppApp.swift; sourceTree = "<group>"; };
 		DB9B52972BCEDDB3006B4163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB9B52992BCEDDB4006B4163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9B529C2BCEDDB4006B4163 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB9B52A32BCEDF43006B4163 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		DB9B52A52BCEDF7A006B4163 /* ChartComponets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartComponets.swift; sourceTree = "<group>"; };
+		DB9B52A92BCEE009006B4163 /* LinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRow.swift; sourceTree = "<group>"; };
+		DBC95B692BD0327D00D197DA /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		DBC95B6B2BD032A600D197DA /* MetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricView.swift; sourceTree = "<group>"; };
+		DBC95B6D2BD0331D00D197DA /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
+		DBC95B6F2BD033EF00D197DA /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,18 @@
 		DB9B52942BCEDDB3006B4163 /* DashboardApp */ = {
 			isa = PBXGroup;
 			children = (
-				DB9B52952BCEDDB3006B4163 /* DashboardAppApp.swift */,
+				DBC95B6D2BD0331D00D197DA /* BottomButtonView.swift */,
+				DBC95B692BD0327D00D197DA /* Overview.swift */,
+				DB216F002BD02DEC0009685D /* Link.swift */,
+				DB216EFE2BD0253B0009685D /* DashboardView.swift */,
 				DB9B52972BCEDDB3006B4163 /* ContentView.swift */,
+				DB9B52A32BCEDF43006B4163 /* GreetingView.swift */,
+				DB9B52A52BCEDF7A006B4163 /* ChartComponets.swift */,
+				DB216EFC2BD024630009685D /* DashboardViewModel.swift */,
+				DBC95B6B2BD032A600D197DA /* MetricView.swift */,
+				DB9B52952BCEDDB3006B4163 /* DashboardAppApp.swift */,
+				DB9B52A92BCEE009006B4163 /* LinkRow.swift */,
+				DBC95B6F2BD033EF00D197DA /* LinksView.swift */,
 				DB9B52992BCEDDB4006B4163 /* Assets.xcassets */,
 				DB9B529B2BCEDDB4006B4163 /* Preview Content */,
 			);
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC95B6A2BD0327D00D197DA /* Overview.swift in Sources */,
+				DB9B52AA2BCEE009006B4163 /* LinkRow.swift in Sources */,
+				DB216EFF2BD0253B0009685D /* DashboardView.swift in Sources */,
 				DB9B52982BCEDDB3006B4163 /* ContentView.swift in Sources */,
+				DBC95B6C2BD032A600D197DA /* MetricView.swift in Sources */,
+				DB9B52A62BCEDF7A006B4163 /* ChartComponets.swift in Sources */,
+				DB9B52A42BCEDF43006B4163 /* GreetingView.swift in Sources */,
+				DB216F012BD02DEC0009685D /* Link.swift in Sources */,
+				DBC95B6E2BD0331D00D197DA /* BottomButtonView.swift in Sources */,
 				DB9B52962BCEDDB3006B4163 /* DashboardAppApp.swift in Sources */,
+				DBC95B702BD033EF00D197DA /* LinksView.swift in Sources */,
+				DB216EFD2BD024630009685D /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

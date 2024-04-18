@@ -11,7 +11,7 @@ import SwiftUI
 struct DashboardAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }
