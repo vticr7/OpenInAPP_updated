@@ -24,10 +24,12 @@ This SwiftUI app displays a dashboard with various information and features. It 
 
 ```bash
 git clone https://github.com/vticr7/OpenInAPP_updated.git
-
-
-## Open the project in Xcode
-
-```bash
 cd dashboard-app
+```
+
 open DashboardApp.xcodeproj
+
+
+
+
+
